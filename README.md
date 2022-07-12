@@ -7,6 +7,7 @@ Functionalities:
 3. Mark a TODO as complete 
 4. Number of Completed tasks shown.
 
+App is Live on https://glittering-kheer-561952.netlify.app/
 
 # How To Use
 
