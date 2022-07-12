@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: #d6a272;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.done_container {
+  background-color: rgba(117, 106, 106, 0.548);
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  height: 100%;
+  margin-top: 35px;
+  text-align: center;
+}
+h1 {
+  padding: 25px;
+}
+.todo_container {
+  width: max(50%, 500px);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: #123d4b;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 8px 9px 53px -13px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 8px 9px 53px -13px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 8px 9px 53px -13px rgba(0, 0, 0, 0.75);
+}
+
+.todo_list_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+}
+
+.todo_title {
+  max-width: 100%;
+  /* background-color: red; */
+  display: inline;
+  margin-left: 10px;
+  word-wrap: break-word;
+}
+
+.todo_item {
+  padding: 5px;
+  border-bottom: 1px solid #acaaaa;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.todo_completed {
+  text-decoration: line-through;
+}
+
+.todo_checkbox_title {
+  padding: 5px;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.container-fluid {
+  background-color: rgb(255 255 255 / 20%);
+  padding: 50px;
+  border-radius: 30px;
+}
+.box {
+  width: 25%;
+  height: 15%;
+  background-color: #a5bbdd;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+.inputData {
+  /* background-color: rgb(255 255 255 / 20%); */
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+  border: 1px solid #80868b;
+  height: 100%;
+}
+button {
+  background-color: rgba(117, 106, 106, 0.548);
+  padding: 5px 10px;
+  margin: 5px 10px;
+  border: 0;
+  outline: 0;
+  color: white;
+  border-radius: 5px;
+  height: 100%;
+}
+
+.todo_delete_button {
+  background-color: rgba(117, 106, 106, 0.548);
+  padding: 5px 10px;
+  margin: 5px 10px;
+  border: 0;
+  outline: 0;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: white;
+  text-align: center;
+}
+
+.inputData input {
+  padding: 10px;
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 350px) {
+
+  .todo_input_container{
+    display: flex;
+    flex-direction: column;
+  }
+   h1{
+    font-size: 20px;
+  }
+}
