@@ -1,7 +1,7 @@
 # TODO APP
 
-To do application made using ReactJS
-Functionalities:
+To do application made using ReactJS \
+Functionalities: \
     1. Add a TODO
     2. Delete a TODO
     3. Mark a TODO as complete
